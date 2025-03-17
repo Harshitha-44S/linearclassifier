@@ -35,3 +35,7 @@ jobs:
           git add .
           git commit -m "Automated commit: Updated results of linear algebra calculations"
           git push
+      -name: Insatll Dependecies
+      run: |
+        pip install numpy
+        pip install streamlit
